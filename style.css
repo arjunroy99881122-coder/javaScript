@@ -1,0 +1,18 @@
+body{
+background-color: bisque;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+button{
+padding: 10px 20px;
+cursor: pointer;
+}
+
+#title{
+background-color: yellow;
+padding: 10px 20px;
+}
