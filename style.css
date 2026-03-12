@@ -1,18 +1,18 @@
 body{
-background-color: bisque;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 100vh;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
 }
-
 button{
-padding: 10px 20px;
-cursor: pointer;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-#title{
-background-color: yellow;
-padding: 10px 20px;
+.dark{
+  background-color: black;
+  color: white;
 }

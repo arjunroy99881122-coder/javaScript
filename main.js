@@ -1,17 +1,10 @@
-const title = document.getElementById("title");
-const description = document.getElementById("desc");
+const form = Document.t.getElementById("username");
+const errorM = document.querySelector(.error);
 
-const changeBtn = document.getElementById("change-button");
+form.addEventListener("submit",(e) =>{
+  e.preventDefault(};
+  
+  if (username.value ===""){
+    errorM.textcontent =username.nodeValue
+  }
 
-changeBtn.addEventListener("click", function () {
-
-title.textContent = "Java Programmer into first lesson here available";
-
-description.textContent =
-"You are seeing this because you have clicked the button";
-
-console.log("button clicked");
-
-alert("You are here below button");
-
-});
