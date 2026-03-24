@@ -1,41 +1,79 @@
-body {
-    background: lightgray;
+*{
+  margin:0;
+  padding:0px;
+  box-sizing:border-box;
+  font-family:"Inter",sans-serif;
 }
 
-.container {
-    width: 350px;
-    margin: 100px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    text-align: center;
+body{
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.box{
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.login-section h1{
+  text-align: center;
+}
+input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.error-Msg{
+  color: red;
+}
+button{
+  background-color: royalblue;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  
+}
+.demo{
+  background-color: #f4f4f4;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+}
+.demo-header{
+  text-align: center;
+}
+.hidden{
+  display: none;
 }
 
-h2 {
-    margin-bottom: 20px;
+.dark{
+  background-color: black;
+  color: white;
 }
-
-input {
-    width: 70%;
-    padding: 20px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+.dark .box{
+  background-color: #1c1b1b;
 }
+/* dashboard styles */
 
-button {
-    width: 100%;
-    padding: 20px;
-    margin-top: 15px;
-    background-color: blue;
-    border-radius: 8px;
-    color: white;
-    
+
+.welcome-text{
+  text-align: center;
 }
-
-.demo {
-    margin-top: 20px;
-    padding: 20px;
-    background: #f0f2f5;
-    border-radius: 10px;
+.dashboard-btn{
+  display: flex;
+  gap:10px;
+  justify-content: space-between;
+  
+}
+.dashboard-btn button{
+  width:100%;
+  
 }
