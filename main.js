@@ -1,5 +1,5 @@
 const demoUsername ="smdnayem";
-const demoPassword ="1234567@";
+const demoPassword ="123456@";
 const loginSection = document.getElementById("login-section");
 
 const errorMsg = document.getElementById("error-Msg");
